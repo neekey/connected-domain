@@ -1,0 +1,22 @@
+{
+  "name": "connected-domain",
+  "version": "1.0.0",
+  "description": "calculate all the connected domains based on the given two-dimensional array",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neekey/connected-domain.git"
+  },
+  "keywords": [
+    "connected-domain"
+  ],
+  "author": "neekey <ni184775761@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neekey/connected-domain/issues"
+  },
+  "homepage": "https://github.com/neekey/connected-domain#readme"
+}
