@@ -4,7 +4,7 @@
   "description": "calculate all the connected domains based on the given two-dimensional array",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha  -t 0 -R spec test/spec.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/neekey/connected-domain/issues"
   },
-  "homepage": "https://github.com/neekey/connected-domain#readme"
+  "homepage": "https://github.com/neekey/connected-domain#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
 }
