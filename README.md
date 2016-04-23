@@ -21,7 +21,7 @@ ConnectedDomain( `twoDimensionalArray`, `indicator`, `ifHardLink` ):
 
 - `twoDimensionalArray`: A two-dimensional array for ConnectedDomain to parse
 - `indicator`: Function to decide what identifier each point should have to decide which domain it belongs to. The first parameter will be given as the point value. The return value of this function will be used as the identifier.
-- `ifHardLink`: Boolean. If use hard-link to decide connected domains. ( see section [Hard Link](#Hard-Link) for details )
+- `ifHardLink`: Boolean. If use hard-link to decide connected domains. ( see section [Hard Link](#hard-link) for details )
 
 The result of invocation of `ConnectedDomain` is a object:
 
