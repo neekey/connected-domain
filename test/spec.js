@@ -49,7 +49,6 @@ describe( 'desc-name', function(){
         Assert.equal( result.totalDomains, 2, '2 domains should be found' );
         Assert.equal( result.domains.length, 2, '2 domains should be found' );
         Assert.equal( result.totalIdentifiers, 2, '2 kinds of domains should be found');
-        console.log( JSON.stringify( result ) );
     });
 
     it( 'parse domains with hard link', function(){
