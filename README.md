@@ -1,4 +1,4 @@
-# connected-domain
+# connected-domain [![Build Status](https://api.travis-ci.org/neekey/connected-domain.svg)](https://travis-ci.org/neekey/connected-domain)
 
 Calculate all the connected domains based on the given two-dimensional array
 
